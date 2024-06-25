@@ -30,7 +30,7 @@
             <field name="name">custom.accounting.tree</field>
             <field name="model">custom.accounting</field>
             <field name="arch" type="xml">
-                <tree>
+                <tree default_order="create_date desc">
                     <field name="purchase_order_name"/>
                     <field name="sale_order_name"/>
                     <field name="vendor_name" />
